@@ -1,0 +1,54 @@
+body {
+    color: #333333;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(132, 132, 247);
+    margin-top: 50px;
+    width: 50%;
+}
+
+h1 {
+    border-bottom: 2px solid rgb(1, 1, 26, 0.1);
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #888888;
+    margin: 10px;
+}
+a:hover{
+    color: rgb(132, 132, 247);
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#message-2 {
+    text-align: left;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: rgb(59, 245, 22, 0.5);
+    padding: 10px;
+}
