@@ -23,7 +23,8 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.innerHTML = data.error;
             }else{
                 messageTwo.innerHTML = `Location: ${data.location} <br> Currently: ${data.forecast.currently} 
-                <br> Temperature out: ${data.forecast.temperature_out} <br> Chance of rain: ${data.forecast.chanceOfRain}`
+                <br> Temperature out: ${data.forecast.temperature_out} <br> Chance of rain: ${data.forecast.chanceOfRain}. 
+                <br> Today max temperature is ${data.forecast.this_high_today} and a low temperature is ${data.forecast.this_low_today}`
             }  
         })
     })
